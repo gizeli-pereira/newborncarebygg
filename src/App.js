@@ -1,14 +1,12 @@
-import gigi from './gigi.jpg';
+import logo from './logo.jpg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={gigi} className="App-logo" alt="logo" />
-        <p>
-          Newborn Care by Gigi
-        </p>
+        <img src={logo} className="App-logo" alt="logo" />
+       
       </header>
     </div>
   );
